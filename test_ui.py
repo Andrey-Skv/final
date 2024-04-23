@@ -1,5 +1,4 @@
 from testpage import OperationHelper
-import pytest
 import logging
 import yaml
 import time
@@ -10,7 +9,7 @@ with open("testdata.yaml", encoding='utf-8') as f:
     testdata = yaml.safe_load(f)
 
 
-def test_step1(browsser):
+def test_autorisation_with_invalid_data(browsser):
     logging.info("Test 'Invalid Data' Starting")
     testpage = OperationHelper(browsser)
     testpage.go_to_site()
@@ -20,7 +19,7 @@ def test_step1(browsser):
     assert testpage.get_error_text() == "401"
 
 
-def test_step2(browsser):
+def test_autorisation_with_valid_data(browsser):
     logging.info("Test 'Valid Data' Starting")
     testpage = OperationHelper(browsser)
     testpage.go_to_site()
@@ -30,7 +29,7 @@ def test_step2(browsser):
     assert testpage.get_user_text() == f"Hello, {testdata.get('login')}"
 
 
-def test_step3(browsser):
+def test_creating_post(browsser):
     logging.info("Test 'Creating Post' Stsrting")
     testpage = OperationHelper(browsser)
     testpage.click_new_post_btn()
@@ -42,7 +41,7 @@ def test_step3(browsser):
     assert testpage.get_res_text() == testdata.get("title"), "Test FAILED!"
 
 
-def test_step4(browsser):
+def test_contact_us(browsser):
     # test contact us
     logging.info("Test 'Contact_us' Starting")
     testpage = OperationHelper(browsser)

@@ -14,7 +14,5 @@ username: Ulrich
 user_email: eptit@mail.ru
 content_contact: "Hello Python!"
 
-url_login: https://test-stand.gb.ru/gateway/login
-url_post: https://test-stand.gb.ru/api/posts
-address_post: https://test-stand.gb.ru/gateway/posts
-not_me_title: 'Осень'
+url_login: "https://test-stand.gb.ru/gateway/login"
+user_url: "https://test-stand.gb.ru/api/users/profile/"

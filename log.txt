@@ -1,21 +1,21 @@
-2024-04-18 19:59:02 INFO ====== WebDriver manager ======
-2024-04-18 19:59:03 INFO Get LATEST chromedriver version for google-chrome
-2024-04-18 19:59:03 INFO Get LATEST chromedriver version for google-chrome
-2024-04-18 19:59:03 INFO Driver [C:\Users\Dron\.wdm\drivers\chromedriver\win64\109.0.5414.74\chromedriver.exe] found in cache
-2024-04-18 19:59:11 INFO Test 'Invalid Data' Starting
-2024-04-18 19:59:17 INFO Send test to element login form
-2024-04-18 19:59:17 INFO Send test to element pasword form
-2024-04-18 19:59:18 INFO Test 'Valid Data' Starting
-2024-04-18 19:59:18 INFO Send Ulrich to element login form
-2024-04-18 19:59:19 INFO Send a10b1b08ba to element pasword form
-2024-04-18 19:59:21 INFO Test 'Creating Post' Stsrting
-2024-04-18 19:59:24 INFO Send NEW POST to element title form
-2024-04-18 19:59:25 INFO Send NEW DESCRIPTION to element description form
-2024-04-18 19:59:25 INFO Send NEW CONTENT to element content form
-2024-04-18 19:59:28 INFO Test 'Contact_us' Starting
-2024-04-18 19:59:28 INFO Send Ulrich to element contact name form
-2024-04-18 19:59:29 INFO Send eptit@mail.ru to element contact email form
-2024-04-18 19:59:29 INFO Send Hello Python! to element contact content form
-2024-04-18 19:59:31 INFO Get alert message
-2024-04-18 19:59:31 INFO Alert message is Form successfully submitted
-2024-04-18 19:59:31 INFO Test 'About Page' Starting
+2024-04-23 18:48:57 INFO ====== WebDriver manager ======
+2024-04-23 18:49:09 INFO Get LATEST chromedriver version for google-chrome
+2024-04-23 18:49:09 INFO Get LATEST chromedriver version for google-chrome
+2024-04-23 18:49:09 INFO Driver [C:\Users\Dron\.wdm\drivers\chromedriver\win64\109.0.5414.74\chromedriver.exe] found in cache
+2024-04-23 18:49:52 INFO Test 'Invalid Data' Starting
+2024-04-23 18:49:58 INFO Send test to element login form
+2024-04-23 18:50:01 INFO Send test to element pasword form
+2024-04-23 18:50:03 INFO Test 'Valid Data' Starting
+2024-04-23 18:50:04 INFO Send Ulrich to element login form
+2024-04-23 18:50:04 INFO Send a10b1b08ba to element pasword form
+2024-04-23 18:50:07 INFO Test 'Creating Post' Stsrting
+2024-04-23 18:50:08 INFO Send NEW POST to element title form
+2024-04-23 18:50:08 INFO Send NEW DESCRIPTION to element description form
+2024-04-23 18:50:08 INFO Send NEW CONTENT to element content form
+2024-04-23 18:50:12 INFO Test 'Contact_us' Starting
+2024-04-23 18:50:12 INFO Send Ulrich to element contact name form
+2024-04-23 18:50:13 INFO Send eptit@mail.ru to element contact email form
+2024-04-23 18:50:13 INFO Send Hello Python! to element contact content form
+2024-04-23 18:50:14 INFO Get alert message
+2024-04-23 18:50:15 INFO Alert message is Form successfully submitted
+2024-04-23 18:50:15 INFO Test 'About Page' Starting
